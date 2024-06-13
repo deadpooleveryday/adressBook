@@ -1,0 +1,63 @@
+.profile {
+  &__container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 200px;
+  }
+  &__img {
+    width: 110px;
+    height: 90px;
+  }
+  &__name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__role {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(124, 124, 124, 1);
+  }
+  &__btn {
+    font-size: 15px;
+    color: rgba(0, 117, 33, 1);
+    padding: 5px;
+    width: 320px;
+    background-color: rgba(78, 223, 119, 1);
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+  &__phoneInfo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 320px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__phone{
+    font-size: 15px;    
+    color: rgba(124, 124, 124, 1);
+  }
+  &__number{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  &__icon{
+    width: 35px;
+    height: 35px;
+  }
+  &__create{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}

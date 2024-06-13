@@ -1,0 +1,239 @@
+.mySelf__container {
+  width: 300px;
+  height: 800px;
+  position: fixed;
+  top: 0;
+  border: 2px rgb(226, 226, 226) solid;
+}
+.mySelf__avatarAang {
+  height: 90px;
+  width: 90px;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.mySelf__name {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.mySelf__mail {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-left: 50px;
+  color: rgb(124, 124, 124);
+}
+.mySelf__date {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: rgb(124, 124, 124);
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.mySelf__phone {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: rgb(124, 124, 124);
+  margin-left: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: bolder;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: bolder;
+  font-size: 24px;
+}
+
+.header__container {
+  width: 78vw;
+  height: 138px;
+  margin-left: 300px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px rgb(226, 226, 226) solid;
+  border-left: 0px;
+  background-color: #fff;
+}
+.header__btn_search {
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(68, 222, 111, 0.94);
+  color: rgb(0, 117, 33);
+  font-weight: bold;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 2px;
+  border: none;
+}
+.header__input {
+  width: 527px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+  padding-left: 100px;
+  border: none;
+}
+.header__btn_gender {
+  background-color: rgba(68, 222, 111, 0.94);
+  color: rgb(0, 117, 33);
+  border-radius: 10px;
+  width: 85px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+}
+.header__btn_sort {
+  background-color: rgba(68, 222, 111, 0.94);
+  color: rgb(0, 117, 33);
+  border-radius: 10px;
+  width: 85px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+}
+.header__btn_newContact {
+  background-color: rgba(68, 222, 111, 0.94);
+  color: rgb(0, 117, 33);
+  border-radius: 10px;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+}
+
+.list__container {
+  width: 753px;
+  height: 1230px;
+  margin-top: 120px;
+  margin-left: 310px;
+  display: flex;
+}
+.list__cards {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.list__card {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 715px;
+  height: 90px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 10px;
+}
+.list__img {
+  width: 70px;
+  height: 70px;
+}
+.list__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.list__profile {
+  font-size: 15px;
+  color: rgb(99, 99, 99);
+}
+.list__phone {
+  font-size: 18px;
+}
+.list__mail {
+  font-size: 18px;
+  color: rgb(105, 105, 105);
+}
+
+.profile__container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 200px;
+}
+.profile__img {
+  width: 110px;
+  height: 90px;
+}
+.profile__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.profile__role {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(124, 124, 124);
+}
+.profile__btn {
+  font-size: 15px;
+  color: rgb(0, 117, 33);
+  padding: 5px;
+  width: 320px;
+  background-color: rgb(78, 223, 119);
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.profile__phoneInfo {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 320px;
+}
+.profile__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.profile__phone {
+  font-size: 15px;
+  color: rgb(124, 124, 124);
+}
+.profile__number {
+  font-size: 15px;
+  font-weight: bold;
+}
+.profile__icon {
+  width: 35px;
+  height: 35px;
+}
+.profile__create {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

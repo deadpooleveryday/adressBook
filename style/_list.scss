@@ -1,0 +1,49 @@
+.list {
+    &__container{
+        width: 753px;
+        height: 1230px;
+        margin-top: 120px;
+        margin-left: 310px;
+        display: flex;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    &__card{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 715px;
+        height: 90px;
+        border: 1px solid rgb(226, 226, 226);
+        border-radius: 10px;
+    }
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  &__name{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__profile{
+    font-size: 15px;
+    color:rgba(99, 99, 99, 1);
+  }
+  &__phone{
+    font-size: 18px;
+  }
+  &__mail{
+    font-size: 18px;
+    color: rgba(105, 105, 105, 1);
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>aress book</title>
+  </head>
+  <body>
+    <header>
+      <div class="mySelf__container">
+        <h1>BitCamp ninja</h1>
+        <img
+          src="./src/img/man.jpg"
+          alt="ваше фото"
+          class="mySelf__avatarAang"
+        />
+        <div>
+          <p class="mySelf__name">Andrew Bashun</p>
+          <p class="mySelf__mail">anbashun95@gmail.com</p>
+        </div>
+
+        <p class="mySelf__date">
+          <img src="./src/icons/date.svg" alt="твоя дата рождения" /> 25.12.1995
+        </p>
+
+        <p class="mySelf__phone">
+          <img src="./src/icons/phone_gray.png" alt="твой телефон" />
+          8-900-636-89-12
+        </p>
+      </div>
+      <div class="header">
+        <div class="header__container">
+          <h2>Address Book</h2>
+
+          <form action="" class="header__form">
+            <button class="header__btn_search">Search</button>
+            <input type="text" class="header__input" id ="search"/>
+          </form>
+
+          <button class="header__btn_gender">
+            Gender
+            <img src="./src/icons/triangle.svg" alt="" />
+          </button>
+
+          <button class="header__btn_sort">
+            Sort
+            <img src="./src/icons/triangle.svg" alt="" />
+          </button>
+
+          <button class="header__btn_newContact">
+            <img src="./src/icons/plus.svg" alt="кнопка добавить контакт" /> New
+            contact
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="list__container">
+      <div class="list__cards">
+        <div class="list__card">
+          <img src="./src/img/man.jpg" class="list__img" alt="" />
+          <div class="list__info">
+            <p class="list__name">Lalka Azaz</p>
+            <p class="list__profile">memolog</p>
+          </div>
+          <p class="list__phone">8-999-888-77-66</p>
+          <p class="list__mail">dota2@gavnina.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="profile">
+      <div class="profile__container">
+        <img src="./src/img/woman(moment).png" class="profile__img" alt="" />
+        <div class="profile__info">
+          <p class="profile__name">Jastin Bebra</p>
+          <p class="profile__role">6k worm</p>
+        </div>
+        <button class="profile__btn">Edit contact</button>
+        <div class="profile__phoneInfo">
+          <div class="profile__wrapper">
+            <p class="profile__phone">Phone number</p>
+            <p class="profile__number">8-999-666-55-11</p>           
+          </div> 
+          <img
+              src="./src/icons/phone_green.png"
+              class="profile__icon"
+              alt=""
+            />
+        </div>
+          <div class="profile__phoneInfo">
+            <div class="profile__wrapper">
+              <p class="profile__phone">Email Address</p>
+              <p class="profile__number">JakieChan@yandex.ru</p>
+              <div class="profile__create">
+            <p class="profile__phone">Date of create</p>
+            <p class="profile__number">09.06.2024</p>
+          </div>
+            </div>
+            <img src="./src/icons/mail.png" class="profile__icon" alt="">
+          </div>
+          
+        </div>          
+      </div>
+    </div>
+  </body>
+</html>
