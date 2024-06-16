@@ -1,9 +1,10 @@
 import {contacts} from "./data.js"
-import{render} from "./render.js"
+import { render, renderInfo } from "./render.js";
+
 render(contacts);
+renderInfo(contacts);
 
 const input = document.querySelector("#search");
-const genderBtn = document.querySelector("header__btn_gender"); 
 
 input.addEventListener("input", inputHandler);
 
@@ -20,4 +21,4 @@ function inputHandler(evt) {
   render(arrFiltered);
 }
 
-genderBtn.addEventListener()
+
